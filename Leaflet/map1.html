@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 </head>
 
-<body style="background-color: lightblue;">
+<body style="background-color: lightgreen;">
     <h1>Homework 2</h1>
     <h2>Chandler Lugo</h2>
     <h3>A Leaflet Map of Palm Harbor, Florida</h3>
@@ -23,6 +23,9 @@ crossorigin=""></script>
       height: 500px; width: 500px;
     }
 </style>
+<style>
+    
+</style>
 
 <body>
     <div id="map"></div>
@@ -33,7 +36,8 @@ crossorigin=""></script>
          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
             var marker = L.marker([28.091229, -82.762027]).addTo(map);
-            marker.bindPopup("<b>Indian Trails, Palm Harbor, Florida</b><br>This is my neighborhood!").openPopup();
+            marker.bindPopup("<b>Indian Trails, Palm Harbor, Florida</b><br>This is my neighborhood! Just 5 minutes from the Gulf Coast.").openPopup();
+            
     </script>
 
 </body>
